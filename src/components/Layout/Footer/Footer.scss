@@ -1,0 +1,14 @@
+@import '../../../index';
+
+.Footer__wrap {
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    transition: background .3s ease;
+}
+
+.Footer__wrap:hover {
+    background: $blue;
+}
